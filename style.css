@@ -240,3 +240,267 @@ nav{
     position: relative;
     top: 40px;
 }
+
+.num{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.num h2{
+    position: relative;
+    top: 130px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+}
+
+.num p{
+    position: relative;
+    top: 130px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #a387ff;
+}
+
+.services{
+    width: 100%;
+    height: 700px;
+    background: rgb(249, 250, 255);
+}
+
+.img{
+    width: 350px;
+    position: relative;
+    top: 50px;
+}
+
+.img img{
+    width: 100%;
+}
+
+.div{
+    width: 350px;
+    height: 280px;
+    position: relative;
+    top: 70px;
+}
+
+.div h2{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.div p{
+    font-size: 13.3px;
+    color: #777777;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.div .a{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.div .a a{
+    color: rgb(163, 135, 255);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.div .a a:hover{
+    color: #777777;
+}
+
+.r{
+    position: relative;
+    top: 80px;
+}
+
+.count{
+    width: 68px;
+    height: 160px;
+}
+
+.count h1{
+    font-size: 48px;
+    color: #a387ff;
+    font-weight: 600;
+}
+
+.c2{
+    width: 280px;
+    height: 160px;
+    position: relative;
+}
+
+.c2 h2{
+    font-size: 16px;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.c2 p{
+    font-size: 14px;
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    text-align: left;
+    color: #777777;
+    font-weight: 500;
+}
+
+.prefooter{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to bottom right, #91d1ff, #a387ff);
+}
+
+.sub{
+    width: 70%;
+    height: 158px;
+    margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 80px;
+   color: #fff;
+}
+
+.sub h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.sub h3{
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.sub span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sub div{
+    width: 570px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.sub div input , a{
+    height: 50px;
+    padding: 0%;
+}
+
+.sub div input{
+    width: 60%;
+    outline: #fff;
+    border: #fff;
+}
+
+.sub div a{
+    width: 150px;
+    height: 40px;
+    padding: 7px;
+    background-image: linear-gradient(to bottom right, #91d1ff, #a387ff);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.menulist{
+    width: 470px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    left: 220px;
+}
+
+.menulist li{
+    list-style: none;
+}
+
+.menulist a{
+    text-decoration: none;
+    color: #777777;
+    font-weight: bold;
+}
+
+.menulist a:hover{
+    color: #a387ff;
+}
+
+.social{
+    width: 20%;
+    height: 20px;
+    position: relative;
+    top: 100px; 
+    right: 370px;
+}
+
+.social ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social ul li{
+    list-style: none;
+}
+
+.social ul li a{
+    color: #777777;
+}
+
+.social ul li a:hover{
+    color: #a387ff;
+}
+
+.copy{
+    position: relative;
+    top: 160px;
+    margin: auto;
+}
